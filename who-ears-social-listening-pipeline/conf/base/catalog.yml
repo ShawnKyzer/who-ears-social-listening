@@ -27,3 +27,8 @@ processed_daily_who_ears:
   type: pandas.CSVDataSet
   filepath: data/03_primary/processed_daily_who_ears.csv
   layer: primary
+
+merge_who_ears_owid_data:
+  type: pandas.ParquetDataSet
+  filepath: data/04_feature/merged_owid_who_ears.parquet
+  layer: feature

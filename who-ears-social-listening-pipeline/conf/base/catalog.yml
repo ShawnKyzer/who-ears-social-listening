@@ -2,11 +2,28 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
-owid:
+raw_daily_owid:
   type: pandas.CSVDataSet
   filepath: data/01_raw/owid-covid-data.csv
+  layer: raw
 
-who_ears:
+raw_daily_who_ears:
   type: PartitionedDataSet
   path: data/01_raw/who-ears/data  # path to the location of partitions
   dataset: pandas.CSVDataSet  # shorthand notation for the dataset which will handle individual partitions
+  layer: raw
+
+who_ears_doc_mapping:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/who_ears_doc_mapping.csv
+  layer: raw
+
+merged_daily_who_ears:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/who_ears_all.csv
+  layer: intermediate
+
+processed_daily_who_ears:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/processed_daily_who_ears.csv
+  layer: primary

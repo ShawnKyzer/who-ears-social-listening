@@ -19,7 +19,7 @@
     ```
 * Move into pipeline directory and proceed from README.md Located there
   ```bash
-   cd kedro
+    cd who-ears-social-listening-pipeline
   ```
 
 ### References

@@ -13,3 +13,6 @@ pytest-mock>=1.7.1, <2.0
 pytest~=6.2
 # Kedro Additional Plugins
 kedro-viz~=5.1.1
+# These are to fetch things from http - Not currently used
+requests~=2.28.1
+aiohttp~=3.8.3

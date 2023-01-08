@@ -117,6 +117,10 @@ To automatically strip out all output cell contents before committing to `git`, 
 
 > *Note:* Your output cells will be retained locally.
 
+### Retrieve or update latest datasets from git sources
+```bash
+ sh retrieve_refresh_raw_data.sh
+```
 ## Package your Kedro project
 
 [Further information about building project documentation and packaging your project](https://kedro.readthedocs.io/en/stable/tutorial/package_a_project.html)

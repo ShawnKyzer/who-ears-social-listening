@@ -2,3 +2,11 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+owid:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/owid-covid-data.csv
+
+who_ears:
+  type: PartitionedDataSet
+  path: data/01_raw/who-ears/data  # path to the location of partitions
+  dataset: pandas.CSVDataSet  # shorthand notation for the dataset which will handle individual partitions

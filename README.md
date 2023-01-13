@@ -1,5 +1,8 @@
 # who-ears-social-listening
 
+### IMPORTANT: This repository is currently a work in progress and should be considered as such. In the coming months we will continue to finalize the codebase, outcomes and update references. 
+
+
 ## Purpose of this project
 
 Oftentimes the most innovative ideas are born out of the intersection of multiple disciplines in both technology and public health. In this session we will discuss what this looks like in practice by leveraging an actual use case, “Exploring Social Media indicators to Predict COVID-19 Trends, by beginning with initial experimentation and ending with production and publication of the outcomes of the research.
@@ -33,3 +36,7 @@ We would like to democratize our research and data to share with the larger comm
 * {Research Paper Link to be Added post DRAFT}
 
 * {Links to important references and documentation}
+
+### Data References
+* Our World in Data. Coronavirus (COVID-19) Vaccinations [Internet]. Statistics and Research. 2021 [cited 2021 Apr 20]. Available from: https://ourworldindata.org/covid-vaccinations
+* World Health Organization. EARS Methodology, Data and Definitions of the WHO Early AI-supported Response with Social Listening Platform [Internet]. 2022 [cited 2022 Dec 20]. Available from: https://www.who-ears.com/methodology/#/ and data https://github.com/citibeats-labs/who-ears/tree/main/data

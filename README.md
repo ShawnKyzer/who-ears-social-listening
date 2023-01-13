@@ -8,6 +8,10 @@ Oftentimes the most innovative ideas are born out of the intersection of multipl
 
 We would like to democratize our research and data to share with the larger community. In this repository you will find our ingestion pipelines, notebook experiments and with time our machine learning pipelines and deployment to production. We hope this will serve as a guide for anyone who wants to test out a hypothesis and make available these findings to the world using best practices in research, data engineering and machine learning. 
 
+## Interactive Notebook
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShawnKyzer/who-ears-social-listening/blob/main/who-ears-social-listening-pipeline/notebooks/External_who_ears_social_listening_analysis.ipynb)
+
 ## Data Ingestion Pipeline Overview 
 
 ![Data Ingestion Pipeline Overview](image/Data_Ingestion_Pipeline.png)

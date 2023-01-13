@@ -3,6 +3,13 @@
 ## Purpose of this project
 
 Oftentimes the most innovative ideas are born out of the intersection of multiple disciplines in both technology and public health. In this session we will discuss what this looks like in practice by leveraging an actual use case, “Exploring Social Media indicators to Predict COVID-19 Trends, by beginning with initial experimentation and ending with production and publication of the outcomes of the research.
+
+We would like to democratize our research and data to share with the larger community. In this repository you will find our ingestion pipelines, notebook experiments and with time our machine learning pipelines and deployment to production. We hope this will serve as a guide for anyone who wants to test out a hypothesis and make available these findings to the world using best practices in research, data engineering and machine learning. 
+
+## Data Ingestion Pipeline Overview 
+
+![Data Ingestion Pipeline Overview](image/Data_Ingestion_Pipeline.png)
+
 ### Environment Setup Instructions
 * Install Anaconda instructions here (https://docs.anaconda.com/anaconda/install/index.html)
 * Navigate to repository root directory and create then activate your python virtual environment:

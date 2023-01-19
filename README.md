@@ -1,6 +1,6 @@
 # who-ears-social-listening
 
-### IMPORTANT: This repository is currently a work in progress and should be considered as such. In the coming months we will continue to finalize the codebase, outcomes and update references. 
+### IMPORTANT: This repository is currently a work in progress and should be considered as such. In the coming months we will continue to finalize the codebase, outcomes and update references. It is also important to note that this repository is for research purposes. 
 
 ## Purpose of this project
 

@@ -6,5 +6,5 @@ dependencies:
   - python=3.10
   - kedro=0.18.4
   - pip:
-      - pip -r who-ears-social-listening/src/requirements.txt
+      - -r who-ears-social-listening/src/requirements.txt
 prefix: /usr/local/anaconda3/envs/who-ears-social-listening
